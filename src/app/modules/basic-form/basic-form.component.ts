@@ -120,4 +120,35 @@ export class BasicFormComponent implements OnInit {
   get isNameFieldInvalid(){
     return this.nameField.touched && this.nameField.invalid;
   }
+
+  get isLastFieldInvalid(){
+    return this.lastField.touched && this.lastField.invalid;
+  }
+
+  get isLastFieldValid(){
+    return this.lastField.touched && this.lastField.valid;
+  }
+
+  get isEmailFieldInvalid(){
+    return this.emailField.touched && this.emailField.invalid;
+  }
+
+  get isEmailFieldValid(){
+    return this.emailField.touched && this.emailField.valid;
+  }
+
+  get isPhoneFieldInvalid(){
+    return this.phoneField.touched && this.phoneField.invalid;
+  }
+
+  get isPhoneFieldValid(){
+    return this.phoneField.touched && this.phoneField.valid;
+  }
+  get isAgeFieldInvalid(){
+    return this.ageField.touched && this.ageField.invalid;
+  }
+
+  get isAgeFieldValid(){
+    return this.ageField.touched && this.ageField.valid;
+  }
 }

@@ -8,8 +8,16 @@ input{
 }
 .messages{
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all .5s ease-in;
   &.active{
     opacity: 1;
   }
+}
+form {
+  mat-form-field{
+    width: 250px;
+  }
+}
+.example-card {
+  max-width: 400px;
 }
